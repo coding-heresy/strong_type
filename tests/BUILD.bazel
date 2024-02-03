@@ -1,0 +1,9 @@
+
+cc_test(
+    name = "strong_type-tests",
+    srcs = ["strong_type-tests.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "//:strong_type",
+    ],
+)

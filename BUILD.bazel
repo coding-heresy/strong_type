@@ -1,0 +1,13 @@
+
+cc_library(
+    name = "strong_type",
+    visibility = ["//visibility:public"],
+    hdrs = [
+        "include/st/is_strong_type.hpp",
+        "include/st/st.hpp",
+        "include/st/traits.hpp",
+        "include/st/type.hpp",
+        "include/st/unwrap.hpp",
+    ],
+    includes = ["include"],
+)
