@@ -22,3 +22,10 @@ build
 # CLion
 .idea
 cmake-build-debug
+
+# emacs
+*~
+
+# bazel
+bazel-*
+MODULE.bazel.lock
